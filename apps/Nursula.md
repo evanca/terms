@@ -33,7 +33,7 @@ Company has not reviewed all of the sites linked to its app and is not responsib
 Company may revise these terms of service for its app at any time without notice. By using Nursula you are agreeing to be bound by the then current version of these terms of service.
 
 
-</br></br></br>
+<br/><br/><br/>
 <h2>Privacy Policy</h2>
 <p>Your privacy is important to us. It is Company's policy to respect your privacy regarding any information we may collect from you through our app, Nursula.</p>
 
@@ -54,5 +54,5 @@ Company may revise these terms of service for its app at any time without notice
 <p>Your continued use of our app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
 <p>This policy is effective as of 5 May 2020.</p>
 
-</br></br></br>
+<br/><br/><br/>
 <p>https://getterms.io/ service was partly used to create this Privacy Policy and Terms of Use.</p>
