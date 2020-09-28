@@ -1,4 +1,39 @@
 # Nursula
+
+<h2>Terms of Use</h2>
+<h3>1. Terms</h3>
+By accessing our app, Nursula, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing Nursula. The materials contained in Nursula are protected by applicable copyright and trademark law.
+
+<h3>2. In-App Purchases</h3>
+Certain subscriptions offered in the app may be provided for a fee or other charge. A purchase will be applied to your account. Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period. You can cancel anytime with your Google Play / iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription. Certain subscription offerings may offer a free trial prior to charging your payment method, the period of which will be communicated to you via the app.
+
+<h3>3. Use License</h3>
+Permission is granted to temporarily download one copy of Nursula per device for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+modify or copy the materials;
+use the materials for any commercial purpose, or for any public display (commercial or non-commercial);
+attempt to decompile or reverse engineer any software contained in Nursula;
+remove any copyright or other proprietary notations from the materials; or
+transfer the materials to another person or "mirror" the materials on any other server.
+This license shall automatically terminate if you violate any of these restrictions and may be terminated by Company at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
+
+<h3>4. Disclaimer</h3>
+The materials within Nursula are provided on an 'as is' basis. Company makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+Further, Company does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to Nursula.
+
+<h3>5. Limitations</h3>
+In no event shall Company or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use Nursula, even if Company or a Company authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
+
+<h3>6. Accuracy of materials</h3>
+The materials appearing in Nursula could include technical, typographical, or photographic errors. Company does not warrant that any of the materials on Nursula are accurate, complete or current. Company may make changes to the materials contained in Nursula at any time without notice. However Company does not make any commitment to update the materials.
+
+<h3>7. Links</h3>
+Company has not reviewed all of the sites linked to its app and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Company of the site. Use of any such linked website is at the user's own risk.
+
+<h3>8. Modifications</h3>
+Company may revise these terms of service for its app at any time without notice. By using Nursula you are agreeing to be bound by the then current version of these terms of service.
+
+
+</br></br></br>
 <h2>Privacy Policy</h2>
 <p>Your privacy is important to us. It is Company's policy to respect your privacy regarding any information we may collect from you through our app, Nursula.</p>
 
@@ -19,4 +54,5 @@
 <p>Your continued use of our app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
 <p>This policy is effective as of 5 May 2020.</p>
 
-<p>https://getterms.io/ service was partly used to create this Privacy Policy.</p>
+</br></br></br>
+<p>https://getterms.io/ service was partly used to create this Privacy Policy and Terms of Use.</p>
