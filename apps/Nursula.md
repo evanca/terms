@@ -40,7 +40,7 @@ Company may revise these terms of service for its app at any time without notice
 <p>We DO NOT store or collect any kind of personal data on our servers. Our default practice is to not access your information but we may employ third party companies and individuals to perform services or to assist us in analyzing how our app is used.
 
 <h3>Use of personalized advertising - NOT EFFECTIVE SINCE VERSION 2.0.0 </h3>
-~~We may use Google AdMob services in our app. Google may use the advertising ID from the device on which the ad is serving to generate interests and demographics (for example, 'sports enthusiasts'). Interests, demographics, and other data may be used to serve better targeted ads to the user.~~
+<del><p>We may use Google AdMob services in our app. Google may use the advertising ID from the device on which the ad is serving to generate interests and demographics (for example, 'sports enthusiasts'). Interests, demographics, and other data may be used to serve better targeted ads to the user.</p></del>
 
 <h3>Use of Google Analytics</h3>
 <p>We use Google Analytics services in our app. Google may use cookies, identifiers for mobile devices (e.g., Android Advertising Identifier or Advertising Identifier for iOS) or similar technology used to collect data for Google Analytics. Please refer to https://www.google.com/policies/privacy/partners/ to read about how Google uses your data.</p>
