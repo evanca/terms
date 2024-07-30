@@ -9,12 +9,22 @@ At Nanachat, we prioritize the privacy and security of our users. This Privacy P
 1. **Camera Access:** We use your device's camera to measure your heart rate (BPM) and to send photos over the chat.
 2. **Microphone Access:** We use your device's microphone for speech-to-text functionality to enhance user interactions.
 3. **Health Services Access:** We request access to your Health services to provide personalized commentary on your health data, including glucose levels, oxygen saturation, energy burned, and daily steps.
+
+   - **On Android:** We request the following permissions:
+     - Reading your steps (`android.permission.health.READ_STEPS`) to monitor daily activity and promote an active lifestyle.
+     - Reading your blood glucose levels (`android.permission.health.READ_BLOOD_GLUCOSE`) to offer personalized insights and help manage blood sugar levels.
+     - Reading your oxygen saturation (`android.permission.health.READ_OXYGEN_SATURATION`) to monitor oxygen levels and offer health suggestions.
+     - Reading your active calories burned (`android.permission.health.READ_ACTIVE_CALORIES_BURNED`) to track physical activity and encourage fitness goals.
+     
+   - **On iOS:** We request the following permissions:
+     - Sharing your health data with Nanachat (`NSHealthShareUsageDescription`) to provide personalized health insights.
+     - Updating your health data based on interactions with Nanachat (`NSHealthUpdateUsageDescription`) to ensure accurate and timely health suggestions.
 4. **Analytics and Crashlytics:** We use analytics and crashlytics tools to improve our service and ensure a smooth user experience.
 
 ## How We Use Your Information
 
 - **Providing Services:** Your prompts and interactions are sent to Gemini API and Vertex AI to deliver our services. We do not identify users or track individual prompts.
-- **Health Insights:** Your health data is used to provide personalized comments and suggestions to help you stay healthy and active.
+- **Health Insights:** Your health data is used to provide personalized comments and suggestions to help you stay healthy and active. Users can opt-out of health suggestions if they choose not to use these features.
 - **Improving Services:** Analytics and crashlytics data are used to monitor and enhance the performance of our application.
 
 ## Data Security
