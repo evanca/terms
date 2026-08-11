@@ -4,9 +4,9 @@
 At Puking Cat, we prioritize the privacy and security of our players. Puking Cat is a
 casual physics game by Happy Code Studio. This Privacy Policy explains what information
 the app collects, how we use it, and the choices you have. The short version: the game
-has no accounts, does not ask for personal information, and does not track you across
-other apps or websites. It shows ads, and it offers an optional subscription that
-removes them.
+has no accounts and never asks for your name, email, or location. It is free to play
+and supported by ads, which you can remove with an optional subscription. Your game
+progress stays on your device.
 
 ## Information We Collect
 
@@ -22,52 +22,77 @@ removes them.
   configuration values (for example, the minimum supported app version). This is a
   download of settings, not an upload of your data, though standard Firebase
   installation identifiers apply.
-- **Advertising data (Google AdMob)**: to show ads, the app sends the ad network
-  technical information such as your device type, operating system, coarse
-  region (usually derived from your IP address), and which ads were shown or
-  interacted with. **Ads are non-personalized**: they are chosen from general
-  context rather than from a profile of your interests or your activity in
-  other apps.
-- **Advertising identifier (Android only)**: on Android, Google Analytics for
-  Firebase collects your device's resettable **Advertising ID (AAID)** by
-  default, and the ad network may use it for purposes such as limiting how
-  often you see the same ad and preventing ad fraud. You can reset it, or
-  turn off ad personalization entirely, in **Android Settings → Privacy →
-  Ads**. **On iOS the app does not use the advertising identifier (IDFA) at
-  all** — it never requests App Tracking Transparency permission, so the
-  identifier is never available to it.
-- **Purchase information (RevenueCat)**: if you buy the optional ad-free
-  subscription, our billing provider records the purchase, its status, and an
-  anonymous customer identifier so the app knows the subscription is active and
-  can restore it on your other devices. **Payment itself is handled entirely by
-  Apple or Google — we never see your card details, billing address, or name.**
+- **Advertising data (Google AdMob)**: when the free version shows an ad, our ad
+  partner receives data needed to select, deliver, measure, and report on that ad.
+  Depending on your consent choices and your device settings, this can include your
+  device's advertising identifier, approximate (non-precise) location derived from your
+  IP address, device and app information, and whether an ad was shown, viewed, or
+  clicked. See **Advertising and Your Choices** below for how to control this.
+- **Purchase and subscription data (RevenueCat)**: if you buy the Remove Ads
+  subscription, our subscription provider records the purchase and whether it is still
+  active, together with a randomly generated anonymous identifier for your install and
+  standard purchase details from the store (product, purchase and expiry dates,
+  country, and price). **We never receive your payment card, bank, or billing details** —
+  the app store handles payment and never shares those with us.
+- **Ad performance measurement**: we record non-personal events about ads (loaded,
+  shown, opened, and estimated revenue) so we can understand how the free version is
+  performing. To connect these measurements with the anonymous analytics above, the
+  random Firebase app-instance identifier and the random RevenueCat identifier for your
+  install are linked to each other. Neither identifies you personally.
 
-Firebase and AdMob are Google services. Google's processing is described in the
-[Google Privacy Policy](https://policies.google.com/privacy) and
-[Firebase privacy documentation](https://firebase.google.com/support/privacy).
+Firebase and AdMob are Google services. Google's processing of this data is described
+in the [Google Privacy Policy](https://policies.google.com/privacy),
+the [Firebase privacy documentation](https://firebase.google.com/support/privacy), and
+[How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites).
 RevenueCat's processing is described in the
 [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy).
 
-## Advertising
+## Advertising and Your Choices
+The free version of the app shows ads supplied by Google AdMob.
 
-The free version of the game shows ads:
+**Whether those ads are personalized is your decision, and only yours.** The app does
+not force an answer either way: it passes your choice to Google and Google serves
+accordingly. If you allow personalized advertising, ads may be selected using an
+advertising profile that Google associates with your device, including activity in
+other apps and on other websites. If you decline, or if you are never asked, you still
+see ads — they are simply chosen from the context of the request rather than from a
+profile about you.
 
-- **Rewarded ads are always your choice.** You are offered one in exchange for
-  something in the game — an extra puke after a failed attempt, or doubling
-  what you earned on a win. Declining costs you nothing and never blocks
-  progress.
-- **Occasional full-screen ads** may appear between levels. They are never
-  shown after a failed attempt.
-- **Ads are non-personalized.** They are not selected using a profile of your
-  interests or your activity in other apps.
-- **The app never shows the App Tracking Transparency prompt and never reads
-  the advertising identifier (IDFA)**, because it does not track you across
-  other apps or websites.
+- **Rewarded ads are always your choice.** You are offered one in exchange for something
+  in the game — an extra puke after a failed attempt, or doubling what you earned on a
+  win. Declining costs you nothing and never blocks progress.
+- **Occasional full-screen ads** may appear between levels. They are never shown after a
+  failed attempt.
+- **App Tracking Transparency (iOS)**: the app shows Apple's ATT prompt and asks for
+  permission to use your device's advertising identifier (IDFA) for advertising.
+  **Choosing "Ask App Not to Track" is a complete answer** — the identifier is not used,
+  ads become non-personalized, and nothing else about the game changes. You can change
+  your answer at any time in **iOS Settings → Privacy & Security → Tracking**.
+- **Consent (EEA, UK, Switzerland and other applicable regions)**: before ads are
+  shown, the app displays a Google-provided consent form built on the IAB Transparency
+  and Consent Framework, listing the purposes and the advertising partners involved.
+  Your answers there decide whether the ads you see are personalized, non-personalized,
+  or limited. You can change them at any time through the **Privacy options** entry in
+  the app's Settings screen.
+- **Android**: Google may use your device's advertising ID both to personalize ads,
+  where you have allowed it, and for purposes that apply either way — limiting how
+  often you see the same ad, measuring it, and detecting fraud. You can reset or delete
+  that ID, or opt out of ad personalization generally, in **Settings → Google → Ads**.
+- **Attribution**: on iOS, Apple's SKAdNetwork may report to advertisers, in aggregate
+  and without identifying you, that an app install followed an ad.
+- **Removing ads**: an active Remove Ads subscription stops ads from being shown, and
+  with them the advertising data described above.
 
-If you are in the European Economic Area, the United Kingdom, or Switzerland,
-you will be asked for your advertising consent choices when you first play. You
-can change those choices at any time from **Settings → Privacy options** in the
-game.
+Ads require some data whichever choice you make — the ad request itself, coarse
+location derived from your IP address, and device information — in order to serve and
+measure the ad and to limit repetition.
+
+### Tracking
+Because personalized advertising can involve linking your device's advertising
+identifier to activity in other companies' apps and websites, the App Store lists this
+app as one that may use data to track you. That description applies **only when you
+have permitted it** through the prompts above. We do not collect your name, email
+address, precise location, or contacts, and we do not sell your data to anyone.
 
 ## Purchases
 
@@ -81,51 +106,53 @@ the app before you confirm.
 
 ## What We Do NOT Collect
 - **No accounts** — the game never asks you to sign up or log in.
-- **No cross-app tracking** — the app does not build a profile of you, does not
-  combine your data with data from other companies to target ads, and does not
-  follow you across other apps or websites. On iOS it never requests App
-  Tracking Transparency permission and never uses the advertising identifier
-  (IDFA). On Android an Advertising ID is used as described above, but only for
-  analytics and ad delivery — never to track you across other apps.
-- **No personal information** — no name, email, contacts, photos, location,
+- **No personal information** — no name, email, contacts, photos, precise location,
   microphone, or camera access.
-- **No payment details** — purchases are processed by Apple or Google; we never
-  receive your card or billing information.
+- **No payment details** — purchases are processed entirely by the App Store or Google
+  Play; we never see or store your card or billing information.
+- **No sale of personal information** — we do not sell your data, and we do not share
+  it with anyone other than the service providers named in this policy, which process
+  it on our behalf.
 
 ## Where Your Game Progress Lives
 Your level progress, scores, stars, and settings are stored **only on your device**.
-They are not uploaded anywhere. Deleting the app deletes them. (Your subscription
-is tied to your Apple or Google account, not to the app, so it can be restored
-after reinstalling.)
+They are not uploaded anywhere. Deleting the app deletes them. (Your Remove Ads
+subscription is tied to your app store account rather than your device, so it can be
+restored on a new device with the "Restore purchases" button.)
 
 ## How We Use Information
 - **Improving the game**: aggregated, anonymous gameplay statistics tell us which levels
   are too hard or too easy so we can tune them.
 - **Fixing problems**: crash reports tell us when and why the game breaks.
-- **Showing and paying for ads**: advertising data lets the ad network deliver
-  ads and measure them, which is what keeps the game free.
-- **Providing your subscription**: purchase information lets the app know
-  whether ads should be switched off for you.
-
-We do not sell your data. We share it only with the service providers named above —
-Google (Firebase, AdMob) and RevenueCat — which process it on our behalf.
+- **Showing and measuring ads**: to deliver ads in the free version, personalize them
+  where you have permitted it, limit repetition, and understand how the free version
+  performs.
+- **Providing your subscription**: to check whether Remove Ads is active on your
+  install and to turn ads off accordingly.
 
 ## Data Retention and Deletion
-Analytics, crash, and advertising data are retained by the providers above according to
-their standard retention periods and are automatically deleted afterwards. Because this
-data is anonymous, it cannot be linked back to you on request; if you have any concern
-about data connected to your device, contact us at
+Analytics, advertising and crash data are retained by Google and RevenueCat according
+to their standard retention periods and are automatically deleted afterwards. Because
+this data is anonymous, it generally cannot be linked back to you on request; if you
+have any concern about data connected to your device, contact us at
 [info@happycode.studio](mailto:info@happycode.studio) and we will do our best to help.
-Purchase records are retained by RevenueCat for as long as needed to provide and support
-your subscription. Your on-device progress can be deleted at any time by uninstalling
-the app.
+Your on-device progress can be deleted at any time by uninstalling the app. Subscription
+records held by the app stores are governed by Apple's and Google's own policies.
+
+## Your Rights
+Depending on where you live, you may have rights to access, correct, delete, or object
+to the processing of your personal data, and to withdraw consent for personalized ads
+at any time (see **Advertising and Your Choices**). Because the app collects no
+information that identifies you personally, we may be unable to locate data associated
+with you specifically, but we will help however we can — write to
+[info@happycode.studio](mailto:info@happycode.studio).
 
 ## Children
 Puking Cat is a lighthearted game suitable for a general audience. It is not directed
-at children, and we do not knowingly collect personal information from anyone,
-children included — the app collects no personal information from any player. Because
-the app shows advertising, we ask that children use it only with a parent's or
-guardian's involvement.
+at children, and we do not knowingly collect personal information from children. The
+app is not intended for children under the age required for consent in your country,
+and ads shown in the app are not directed at children. If you believe a child has
+provided us with personal information, contact us and we will delete it.
 
 ## Data Security
 We implement appropriate security measures to protect the limited data we handle. All
@@ -133,14 +160,15 @@ communication between the app and the services named above uses encrypted connec
 (HTTPS).
 
 ## Changes to This Privacy Policy
-We may update this Privacy Policy from time to time. Significant changes will be
-highlighted in the app's release notes, and the updated policy will be visible on this
-page before the version it describes ships.
+We may update this Privacy Policy from time to time. The current version will always be
+posted on this page with its effective date. Significant changes will be highlighted in
+the app's release notes, and the updated policy will be visible on this page before the
+version it describes ships.
 
 ## Contact Us
 If you have any questions about this Privacy Policy, please contact us at
 [info@happycode.studio](mailto:info@happycode.studio).
 
-_Last Updated: August 7, 2026_
+_Last Updated: August 11, 2026_
 
-_Effective Date: August 7, 2026_
+_Effective Date: August 11, 2026_
