@@ -39,6 +39,12 @@ progress stays on your device.
   performing. To connect these measurements with the anonymous analytics above, the
   random Firebase app-instance identifier and the random RevenueCat identifier for your
   install are linked to each other. Neither identifies you personally.
+- **Push notifications (OneSignal)**: if you opt in to receive notifications (such as
+  daily reminders or announcements about new levels), our notification service provider
+  (OneSignal) processes an anonymous device token/subscription identifier, device model,
+  operating system version, and notification interaction events (such as whether a notification
+  was received or opened). Notifications are strictly opt-in, never collect personal information,
+  and you can turn them off at any time in your device's system settings.
 
 Firebase and AdMob are Google services. Google's processing of this data is described
 in the [Google Privacy Policy](https://policies.google.com/privacy),
@@ -46,6 +52,8 @@ the [Firebase privacy documentation](https://firebase.google.com/support/privacy
 [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites).
 RevenueCat's processing is described in the
 [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy).
+OneSignal's processing is described in the
+[OneSignal Privacy Policy](https://onesignal.com/privacy_policy).
 
 ## Advertising and Your Choices
 The free version of the app shows ads supplied by Google AdMob.
@@ -129,12 +137,14 @@ restored on a new device with the "Restore purchases" button.)
   performs.
 - **Providing your subscription**: to check whether Remove Ads is active on your
   install and to turn ads off accordingly.
+- **Delivering notifications**: to send optional gameplay reminders and level updates
+  if you have opted in to receive push notifications.
 
 ## Data Retention and Deletion
-Analytics, advertising and crash data are retained by Google and RevenueCat according
-to their standard retention periods and are automatically deleted afterwards. Because
-this data is anonymous, it generally cannot be linked back to you on request; if you
-have any concern about data connected to your device, contact us at
+Analytics, advertising, crash, and notification data are retained by Google, RevenueCat,
+and OneSignal according to their standard retention periods and are automatically deleted
+afterwards. Because this data is anonymous, it generally cannot be linked back to you
+on request; if you have any concern about data connected to your device, contact us at
 [info@happycode.studio](mailto:info@happycode.studio) and we will do our best to help.
 Your on-device progress can be deleted at any time by uninstalling the app. Subscription
 records held by the app stores are governed by Apple's and Google's own policies.
@@ -169,6 +179,6 @@ version it describes ships.
 If you have any questions about this Privacy Policy, please contact us at
 [info@happycode.studio](mailto:info@happycode.studio).
 
-_Last Updated: August 11, 2026_
+_Last Updated: August 16, 2026_
 
 _Effective Date: August 11, 2026_
