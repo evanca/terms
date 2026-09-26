@@ -4,7 +4,10 @@
 At Puking Cat, we prioritize the privacy and security of our players. Puking Cat is a
 casual physics game by Happy Code Studio. This Privacy Policy explains what information
 the app collects, how we use it, and the choices you have. The short version: the game
-has no accounts and never asks for your name, email, or location. It is free to play
+does not require a player-created login. When you complete a level, Firebase gives the
+app an anonymous identifier so that Community Cats invites can be verified. If you
+choose to nominate a cat, we also receive the photo you select, a cat name and a public
+credit nickname. We never ask for your email or precise location. It is free to play
 and supported by ads, which you can remove with an optional subscription. Your game
 progress stays on your device.
 
@@ -55,6 +58,44 @@ RevenueCat's processing is described in the
 OneSignal's processing is described in the
 [OneSignal Privacy Policy](https://onesignal.com/privacy_policy).
 
+## Community Cats
+
+**For every player.** The first time you complete a level, Firebase Authentication
+gives the app an anonymous user ID. It is a random identifier and it does not contain
+your name, email or device advertising ID. Against that ID we store the level you first
+completed, the number of shots it took and the time, together with a personal invite
+code. This lets us verify that an invited friend really played before either of you
+receives a nomination, and it prevents duplicate claims. We do not use this record for
+advertising and we do not share it with ad networks. It happens whether or not you ever
+open Community Cats.
+
+**Only if you use invites.** We also store the invites you accept or send, referral
+credits and nomination balances.
+
+**Only if you nominate a cat.** If you nominate
+a cat, we receive the photo you select, cat name, public credit nickname, submission and
+review status, and a dated record of your ownership/guidelines confirmation. Firebase
+Firestore and Cloud Storage hold the private records and photo.
+
+During review, we send the photo and cat name to Google's Gemini image-generation
+service to make cartoon candidates. A person reviews the art before publication. The
+curator supports Google Cloud Vertex AI and the Gemini API; their processing terms are
+linked below. Your original is not published. Approved cartoon art and the cat and
+credit names can appear in the public Community Cats gallery in the game.
+
+We keep your original only during review, then delete it on approval or rejection.
+The curator deletes our intake copy and its local original; this does not promise that
+Google's processing logs are erased at that same instant. See Google's
+[Cloud generative-AI data governance](https://cloud.google.com/vertex-ai/generative-ai/docs/data-governance)
+and [Gemini API terms](https://ai.google.dev/gemini-api/terms) for provider processing.
+The original-photo deletion does not delete the separate consent, referral or review
+records, or the approved artwork. Uninstalling the app does not remove those records.
+
+You can request removal of published artwork or help with Community Cats data by
+emailing [info@happycode.studio](mailto:info@happycode.studio) with the cat name,
+credit name and approximate submission date. Do not submit a photo if you do not want
+it processed to create cartoon game art. Choosing not to submit does not prevent play.
+
 ## Advertising and Your Choices
 The free version of the app shows ads supplied by Google AdMob.
 
@@ -99,8 +140,10 @@ measure the ad and to limit repetition.
 Because personalized advertising can involve linking your device's advertising
 identifier to activity in other companies' apps and websites, the App Store lists this
 app as one that may use data to track you. That description applies **only when you
-have permitted it** through the prompts above. We do not collect your name, email
-address, precise location, or contacts, and we do not sell your data to anyone.
+have permitted it** through the prompts above. Community Cats separately processes
+an anonymous ID and, only if you nominate a cat, the names and photo you submit, as
+described above. We do not request your
+email address, precise location or contacts for that feature, and we do not sell your data.
 
 ## Purchases
 
@@ -113,9 +156,14 @@ Apple or Google account — you can cancel there at any time. Prices are shown i
 the app before you confirm.
 
 ## What We Do NOT Collect
-- **No accounts** — the game never asks you to sign up or log in.
-- **No personal information** — no name, email, contacts, photos, precise location,
-  microphone, or camera access.
+- **No player-created login** — no email or password is needed to play. Community Cats
+  uses an anonymous Firebase ID, described above, to protect invite and nomination
+  records.
+- **No general photo-library access for Community Cats** — we receive the photo you
+  select for a nomination, not your whole library. The form asks for a cat name and
+  a public credit nickname; use a nickname, not your real name, and do not enter
+  contact details. It does not request microphone,
+  camera, contacts or precise-location access.
 - **No payment details** — purchases are processed entirely by the App Store or Google
   Play; we never see or store your card or billing information.
 - **No sale of personal information** — we do not sell your data, and we do not share
@@ -124,7 +172,9 @@ the app before you confirm.
 
 ## Where Your Game Progress Lives
 Your level progress, scores, stars, and settings are stored **only on your device**.
-They are not uploaded anywhere. Deleting the app deletes them. (Your Remove Ads
+Community Cats separately records the first level you completed, against the anonymous
+ID described above, to verify invites; this is not a backup of your full progress. Deleting the app removes local
+progress but does not automatically delete server-side Community Cats records. (Your Remove Ads
 subscription is tied to your app store account rather than your device, so it can be
 restored on a new device with the "Restore purchases" button.)
 
@@ -141,6 +191,9 @@ restored on a new device with the "Restore purchases" button.)
   if you have opted in to receive push notifications.
 
 ## Data Retention and Deletion
+Community Cats original-photo handling and separate server records are described above.
+The following paragraph describes the other SDK data, not a Community Cats deletion schedule.
+
 Analytics, advertising, crash, and notification data are retained by Google, RevenueCat,
 and OneSignal according to their standard retention periods and are automatically deleted
 afterwards. Because this data is anonymous, it generally cannot be linked back to you
@@ -152,9 +205,9 @@ records held by the app stores are governed by Apple's and Google's own policies
 ## Your Rights
 Depending on where you live, you may have rights to access, correct, delete, or object
 to the processing of your personal data, and to withdraw consent for personalized ads
-at any time (see **Advertising and Your Choices**). Because the app collects no
-information that identifies you personally, we may be unable to locate data associated
-with you specifically, but we will help however we can — write to
+at any time (see **Advertising and Your Choices**). To help locate a Community Cats
+submission, include the submitted cat name, credit name and approximate submission date;
+we may need further information to verify a request. Write to
 [info@happycode.studio](mailto:info@happycode.studio).
 
 ## Children
@@ -179,6 +232,6 @@ version it describes ships.
 If you have any questions about this Privacy Policy, please contact us at
 [info@happycode.studio](mailto:info@happycode.studio).
 
-_Last Updated: August 16, 2026_
+_Last Updated: September 26, 2026_
 
-_Effective Date: August 11, 2026_
+_Effective Date: September 26, 2026_

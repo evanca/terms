@@ -21,7 +21,7 @@ queue.
 permission to submit, or a cat you look after.
 
 **A photo you own.** You must have taken it yourself, or have the right to give it to
-us to publish. Do not send a photo you found online, a photo from a breeder's website,
+us to turn into cartoon game art and publish that artwork. Do not send a photo you found online, a photo from a breeder's website,
 or a photo a friend took unless they are happy for it to appear in a game.
 
 ## What we do not accept
@@ -52,28 +52,37 @@ welcome to send a different photo another time.
 
 ## What happens to a photo you send us
 
-- It goes into a review queue, where someone from the app team looks at it.
-- If we accept it, it may be displayed inside Puking Cat to other players, on the lobby
-  TV and anywhere else in the game that shows featured cats.
-- It may appear alongside the cat's name, as you typed it. Do not use a person's name.
-- We may resize, crop, or compress it so it fits the screen.
-- We may remove it at any time, for any reason, without telling you first.
-- We do not sell it, and we do not use it in paid advertising.
+- It goes into a private review queue, where someone from the app team looks at it.
+- Your photo will be turned into cartoon game art. We send the photo and cat name to Google's Gemini image-generation service during
+  curation, and review the resulting artwork before it can appear in the game.
+  Sending a photo does not guarantee approval or publication.
+- We keep your original only during review, then delete it on approval or rejection.
+  Approval happens after the cartoon art has been generated and reviewed. We can try
+  another version during review; after deletion, we need you to submit the photo again
+  if a new version is wanted.
+- Only approved cartoon artwork may be displayed inside Puking Cat to other players,
+  on the lobby TV and anywhere else in the game that shows featured cats. Your original
+  photo is not published.
+- The artwork may appear alongside the cat's name and the credit name you submit.
+  Use a credit name you are comfortable making public; do not include contact details.
+- We may resize, crop, or compress the artwork so it fits the screen.
+- We may remove the artwork at any time, for any reason, without telling you first.
+- We do not sell your photo or artwork, and we do not use them in paid advertising.
 
 If you would rather your cat did not appear in the game, the simplest thing is not to
 submit the photo.
 
-## Removing a photo that is already in the game
+## Removing artwork that is already in the game
 
 Email **info@happycode.studio** with the cat's name and, if you have it, the date you
 submitted. Ask us to remove it. We will take it down — you do not have to give a reason
 and we will not ask for one.
 
-## Reporting a photo somebody else submitted
+## Reporting a cat somebody else submitted
 
 If you see a cat in the game that breaks these rules, or that you believe is your photo
 used without permission, email **info@happycode.studio** and tell us what you saw. We
-read that address and we act on reports about published photos before anything else in
+read that address and we act on reports about published artwork before anything else in
 the inbox.
 
 If a photo is yours and was submitted by someone else, say so and we will remove it.
@@ -93,8 +102,9 @@ posted on this page with its effective date, and it is the version that applies.
 If you have any questions about these Guidelines, or you want a photo removed, please
 contact us at [info@happycode.studio](mailto:info@happycode.studio).
 
-Privacy policy: <https://happycode.studio/terms/apps/Puking-Cat>
+Provider processing and requests concerning your submission data are described in
+our privacy policy: <https://happycode.studio/terms/apps/Puking-Cat>
 
-_Last Updated: August 27, 2026_
+_Last Updated: September 26, 2026_
 
-_Effective Date: August 27, 2026_
+_Effective Date: September 26, 2026_
