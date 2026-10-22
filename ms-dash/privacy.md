@@ -19,17 +19,21 @@ This policy covers Ms. Dash as offered in **[confirm territories]**.
 - Subscriptions are bought through the App Store or Google Play, and RevenueCat
   checks them. We never see your payment details.
 - **Planned, confirm before publishing:** anonymous gameplay counts through
-  Aptabase, with no persistent identifier. You can turn them off in Settings.
+  Aptabase, with no persistent identifier. You would be able to turn them off
+  in Settings.
 - The game shows no ads and doesn't use your device's advertising identifier.
 
 ## What Stays on Your Device
 
 The game saves these on your device:
 
-- your game: the current level, high score, remaining lives, the random layout
-  of your campaign, and a paused round so you can resume it;
-- the levels you have earned with daily claims, when you last claimed, and your
-  claim streak;
+- your game: the current level, high score, remaining lives and the random
+  layout of your campaign;
+- where your run continues after a cleared level: the next level, your score,
+  your lives and the maze size;
+- the levels you have earned with daily claims, when you last claimed, your
+  claim streak, and the last time the game read your device clock, so it can
+  tell if the clock was set back;
 - your sound setting and, once anonymous gameplay statistics ship, your choice
   about sharing them;
 - whether you have finished the free first level, whether a purchase is waiting
@@ -94,26 +98,31 @@ first levels and the subscription screen work. The app would send only these
 7. the subscription screen closed;
 8. level 5 cleared.
 
-Each event carries the app version and the platform. The Aptabase SDK also
-adds, on its own: the time, the operating system name and version, the
-device's language and region setting, the app's build number, the SDK version,
-whether it is a development build, and a random session ID. The session ID is
-kept in memory only and replaced after an hour without events. Events wait on
-your device until they are sent.
+Each event would carry the app version and the platform. The Aptabase SDK
+would also add, on its own: the time, the operating system name and version,
+the device's language and region setting, the app's build number, the SDK
+version, whether it is a development build, and a random session ID. The
+session ID would be kept in memory only and replaced after an hour without
+events. Events would wait on your device until they are sent.
 
-There is no persistent identifier, no cookie and no advertising identifier, so
-these counts can't follow you from one day to the next and aren't used to
-track you. Subscriptions and trials are not part of these counts; they stay in
-RevenueCat.
+There would be no persistent identifier, no cookie and no advertising
+identifier, so these counts couldn't follow you from one day to the next and
+wouldn't be used to track you. Subscriptions and trials would not be part of
+these counts; they stay in RevenueCat.
 
-You can turn this off in **Settings → Share anonymous gameplay stats**. It is
-on by default.
+You would be able to turn this off in **Settings → Share anonymous gameplay
+stats**, which would be on by default.
 
 **[Confirm before publishing: that the release build ships this feature as
-described; the SDK version and every property it sends; what Aptabase derives
-from the connection, such as an approximate country from your IP address, and
-whether it stores IP addresses; the Aptabase region (EU or US); and the lawful
-basis for collecting these counts by default.]**
+described, including the Settings switch; that the power-sweet event ships,
+since it depends on power sweets (ms_dash_man#133); the SDK version and every
+property it sends; what the game would store on the device for these counts:
+your choice, up to 100 queued events waiting to be sent (deleted when you turn
+sharing off), and a once-per-install mark for each milestone event already
+sent; what Aptabase derives from the connection, such as an approximate
+country from your IP address, and whether it stores IP addresses; the Aptabase
+region (EU or US); and the lawful basis for collecting these counts by
+default.]**
 
 ### The Update Check
 
@@ -173,7 +182,8 @@ a parent or guardian request.]**
 
 ## Security
 
-The game's connections to RevenueCat, Aptabase and this website use HTTPS.
+The game's connections to RevenueCat and this website use HTTPS, as would the
+planned Aptabase counts.
 **[Describe the verified safeguards for support email and the subscription
 dashboards.]**
 

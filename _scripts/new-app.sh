@@ -26,7 +26,9 @@ base_url="https://happycode.studio/terms"
   refuse "slug '$slug' must use only a-z, 0-9 and single hyphens, and start and end with a letter or digit, e.g. ms-dash."
 
 case "$name" in
-  "" | *[[:cntrl:]]* | *"{{"* | *"}}"*) refuse "the app name must be one line of text without {{ or }}." ;;
+  # Liquid would read these as tags: {{ blanks text, and a stray {% stops the whole site build.
+  "" | *[[:cntrl:]]* | *"{{"* | *"}}"* | *"{%"* | *"%}"*)
+    refuse "the app name must be one line of text without {{, }}, {% or %}." ;;
 esac
 
 # Names the site already uses or that Jekyll would not publish.
@@ -84,5 +86,6 @@ for file in $files; do
 done
 echo
 echo "Also fill each <!-- BEGIN ... --> section and delete the ones that don't apply."
-echo "GitHub Pages publishes a leftover {{...}} in a page as empty text. Before merging,"
-echo "this must print nothing:  grep -rn '{{' $slug/"
+echo "GitHub Pages publishes a leftover {{...}} in a page as empty text, and a stray {%"
+echo "stops the whole site build. Before merging, this must print nothing:"
+echo "  grep -rnE '[{]([{]|%)' $slug/"

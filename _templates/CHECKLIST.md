@@ -6,10 +6,11 @@ memory or another app's pages.
 
 - A fact nobody has confirmed stays in the page as a visible `[bracketed note]`.
   The page is not ready to publish while one is left.
-- No `{{...}}` may be left in a page. GitHub Pages runs Liquid over every
-  Markdown page, so a leftover placeholder is published as empty text and
-  quietly disappears; a lone `{{` can fail the whole site build. Before
-  merging, this must print nothing: `grep -rn '{{' <slug>/`
+- No `{{` or `{%` may be left in a page. GitHub Pages runs Liquid over every
+  Markdown page. A leftover `{{...}}` placeholder is published as empty text
+  and quietly disappears. A stray `{%` or an unclosed `{{` fails the whole site
+  build, which stops every page from updating. Before merging, this must print
+  nothing: `grep -rnE '[{]([{]|%)' <slug>/`
 
 ## Placeholders
 
@@ -57,6 +58,8 @@ the placeholder inside with real content. The comments don't show on the page.
   purchase provider (for example RevenueCat), restore and manage paths.
 - [ ] **Analytics.** The provider, every event, every property the app sends,
   every property the SDK adds on its own, identifiers, and the opt-out.
+- [ ] **Advertising and tracking.** Whether there is any, and the consent and
+  ATT flows.
 - [ ] **Contact.** The email address that answers support and privacy requests.
 - [ ] **Publisher.** The trading name, legal entity form, address and website.
 - [ ] **Jurisdiction and territories.** The governing law, and where the app is
@@ -89,6 +92,7 @@ the app's documentation.
 
 Merging publishes the pages. Then:
 
-- [ ] All four URLs return `200`: `.../<slug>/privacy`, `/terms`, `/support`
-  and `/update-policy.json`.
+- [ ] All four URLs return `200` directly, with no redirect:
+  `.../<slug>/privacy`, `/terms`, `/support` and `/update-policy.json`. The
+  update check should read the file directly.
 - [ ] The privacy page names every SDK in the release build.

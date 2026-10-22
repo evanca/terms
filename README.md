@@ -23,7 +23,7 @@ Each new app gets one folder at the top of this repository, named with a lowerca
 
 1. Run `_scripts/new-app.sh <slug> "<App Name>"`. It copies `_templates/`, fills in the app's name and slug, and lists the placeholders left to fill.
 2. Fill in every placeholder and marked section from the release build, following `_templates/CHECKLIST.md`. A fact nobody has confirmed stays as a visible bracketed note.
-3. Check that `grep -rn '[{][{]' <slug>/` prints nothing. GitHub Pages publishes a leftover placeholder in double braces as empty text.
+3. Check that `grep -rnE '[{]([{]|%)' <slug>/` prints nothing. GitHub Pages publishes a leftover placeholder in double braces as empty text, and a stray Liquid tag stops the whole site build.
 4. Open a pull request. Merging it publishes the pages.
 
 The apps listed first keep their existing pages in `apps/` and at the top level, so their addresses never change. Folders whose names start with `_`, such as `_templates/` and `_scripts/`, are not published.
