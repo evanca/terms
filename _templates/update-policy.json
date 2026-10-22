@@ -1,0 +1,12 @@
+{
+  "ios": {
+    "store_url": "https://apps.apple.com/app/id{{APPLE_APP_ID}}",
+    "minimum_version": "{{MIN_VERSION}}",
+    "recommended_version": "{{MIN_VERSION}}"
+  },
+  "android": {
+    "store_url": "https://play.google.com/store/apps/details?id={{ANDROID_APPLICATION_ID}}",
+    "minimum_version": "{{MIN_VERSION}}",
+    "recommended_version": "{{MIN_VERSION}}"
+  }
+}
